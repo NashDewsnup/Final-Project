@@ -1,0 +1,89 @@
+/* NASH DEWSNUP Dec. 9*/
+
+.common {
+    background-color: beige;
+    border: solid 2px black;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.header-text-1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.header-text-2 {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.mainBody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    z-index: 1;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    font-size: 8px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {
+    color: gray;
+}
+
+.tableau-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tableau-captions {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 2px solid;
+    padding: 10px 40px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+}
+
+.tableau-charts {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: beige;
+    padding: 10px;
+}
